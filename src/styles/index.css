@@ -1,7 +1,153 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #830e54;
+  --secondary-color: #e74054;
+  --primary-text: #323232;
+}
+
+.section-title {
+  color: #323232;
+  font-family: Roboto;
+  font-size: 48px;
+}
+.primary-button {
+  border-radius: 29.5px;
+  background: linear-gradient(90deg, #66224d 0%, #c30f70 100%);
+  color: #fff;
   
-  body {
-    background-color: #ffe2b0;
-  }
+}
+
+.section-text {
+  color: #323232;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.hepatox {
+  border: 1px solid red;
+
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation__list ul {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.primary-button__order {
+  display: flex;
+  align-items: center;
+  padding: 6px 26px 6px 26px;
+}
+
+.header-background-logo {
+    
+    width: 100%;
+    height: 774px;
+    background-image: url(/src/assets/images/backgrounds/ss1\ 1.png);
+}
+
+.primary-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 76px;
+}
+
+.main-wrapper {
+display: flex;
+flex-direction: column;
+
+gap: 26px;
+
+}
+
+.primary-header__title {
+    /* display: flex; */
+   
+    color: var(--primary-color);
+    font-size: 72px;
+ 
+}
+
+.primary-header__ypt {
+    /* display: flex; */
+    
+}
+
+
+.primary-header__advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    
+    
+}
+
+.primary-header__advantages img {
+   
+    font-size: 10px;
+    
+}
+
+.primary-button__header {
+    /* width: 368px;
+    height: 59px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: max-content;
+    
+    padding: 18px 48px 18px 48px;
+
+}
+.primary-header__image {
+    
+  position: relative;
+    
+}
+.primary-header__image-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 36px;
+  color: #fff;
+    position: absolute;
+    top:-40px ;
+    right: -10px;
+    border-radius: 100px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    background-color: #e74054;
+}
+
+.primary-header__image-icons_parapraphi {
+  font-size: 26px;
+  text-decoration:line-through;
+}

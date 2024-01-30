@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "reset.css": "^2.0.2"
+  },
+  "scripts": {
+    "start": "npx live-server --open=index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
