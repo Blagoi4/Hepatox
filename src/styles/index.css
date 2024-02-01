@@ -181,26 +181,22 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 56px;
- 
 }
 
 .hepatox-block__card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #830E54; 
+  border: 1px solid #830e54;
   width: 200px;
-height: 200px;
-
+  height: 200px;
 }
 
-
 .hepatox-block__card__block {
-
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-flex: 4;
+  flex: 4;
 }
 
 .hepatox-block__card__block__bottom {
@@ -209,7 +205,7 @@ flex: 4;
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: #830E54;
+  background-color: #830e54;
   color: #fff;
   font-size: 18px;
 }
@@ -224,10 +220,52 @@ flex: 4;
   justify-content: center;
   font-size: 18px;
   color: #323232;
-  
 }
 
 .hepatox-block__text__footer__span {
   font-size: 18px;
-  color: #830E54;
+  color: #830e54;
+  font-weight: bold;
+}
+
+.block-three__background-color {
+
+  background-color:#F7F3F6;
+}
+
+.block-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.block-three__title {
+  padding-top: 23px;
+}
+
+.block-three__line__image {
+  padding-top: 18px;
+}
+
+.block-three__icons__sertificate {
+  display: flex;
+  padding-top: 19px;
+  gap: 21px;
+}
+
+.block-three__statistics {
+  padding-top: 25px;
+  padding-bottom: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.block-three__padding__text {
+  padding-top: 15px;
+  font-size: 18px;
+  color: #323232;
 }
