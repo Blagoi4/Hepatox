@@ -160,6 +160,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .hepatox-block__title img {
@@ -170,6 +171,7 @@
 
 .hepatox-block__text {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
@@ -229,8 +231,7 @@
 }
 
 .block-three__background-color {
-
-  background-color:#F7F3F6;
+  background-color: #f7f3f6;
 }
 
 .block-three {
@@ -241,6 +242,7 @@
 }
 
 .block-three__title {
+  text-align: center;
   padding-top: 23px;
 }
 
@@ -268,4 +270,84 @@
   padding-top: 15px;
   font-size: 18px;
   color: #323232;
+}
+
+.four-block {
+}
+
+.four-block__title {
+  padding-top: 23px;
+  text-align: center;
+}
+
+.four-block__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+}
+
+.four-block__about {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.four-block__bottom {
+  padding-top: 52px;
+  display: flex;
+  flex-direction: row;
+}
+
+.four-block__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.four-block__list {
+  flex: 2;
+
+  display: flex;
+
+  gap: 50px;
+  padding-left: 30px;
+}
+
+
+.four-block__list-left {
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+
+.four-block__list-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.four-block__one {
+  /* height: 175px; */
+padding-bottom: 25px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.four-block__list__one {
+  display: flex;
+  justify-content: start;
+  font-size: 82px;
+  color: #830e54;
+}
+
+.four-block__list__one__text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+}
+
+.color-text {
+  color: #830e54;
 }
