@@ -675,6 +675,7 @@
 .eight-block-card__left__card {
   display: flex;
   flex-direction: row;
+  gap: 30px;
 }
 
 .eight-block-card__left__card__image {
@@ -852,4 +853,175 @@
 .eleven-block-text {
   display: flex;
   font-size: 18px;
+}
+
+@media (max-width:1024px){
+  .header-navigation__list {
+    display: none;
+  }
+  .header-logo {
+    display: flex;
+    justify-content: start;
+  }
+  .primary-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .header-line {
+  display: none;
+ }
+
+ .two-block {
+  display: flex;
+  flex-direction: column;
+ }
+ .hepatox-card__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+ }
+ .hepatox-block__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .block-three {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .hepatox-block__text__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+ .four-block-section{
+  display: flex;
+  flex-direction: column;
+ }
+ .four-block__bottom {
+  display: flex;
+  flex-direction: column;
+ }
+ .four-block__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ }
+ .four-block__list {
+  width: 100%;
+ }
+ .width {
+  width: 100%;
+ }
+
+ .sixth-block {
+  display: flex;
+  flex-direction: column;
+ }
+ .sixth-block-bottom__advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+ }
+ .sixth-block-bottom__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .seven-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .seven-block-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+ .eight-block {
+  display: flex;
+  flex-direction: column;
+ }
+ .eight-block-card-compound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  gap: 30px;
+ }
+ .eight-block-card__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+ .eight-block-card__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 475px;
+ }
+ .eight-block-card__left__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 475px;
+ }
+
+ .eight-block-card__right {
+  width: 100%;
+  max-width: 475px;
+ }
+
+
+ .nine-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .ten-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .ten-block-title-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+ }
+ .ten-block-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ }
+ .ten-block-first-card {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .eleven-block {
+  display: flex;
+  flex-direction: column;
+ }
+ .eleven-block-delivery__card {
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+ }
 }
