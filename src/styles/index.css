@@ -497,6 +497,10 @@
   flex: 3;
 }
 
+.sixth-block {
+  background-color: #9a658514;
+}
+
 .sixth-block-top {
   margin-top: 10px;
   display: flex;
@@ -563,6 +567,7 @@
   display: flex;
   justify-content: center;
   padding: 18px 48px 18px 48px;
+  margin-bottom: 32px;
 }
 
 .seven-block-title {
