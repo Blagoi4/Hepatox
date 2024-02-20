@@ -540,10 +540,6 @@
   gap: 20px;
 }
 
-/* .sixth-block-bottom__advantages-one__block__img {
-  display: flex;
-
-} */
 
 .sixth-block-bottom__advantages-one__block__text {
   display: flex;
@@ -667,19 +663,18 @@
   justify-content: center;
   gap: 30px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .eight-block-card__left {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 62px
 }
 
 .eight-block-card__left__card {
   display: flex;
   flex-direction: row;
-  gap: 30px;
-  padding-bottom: 62px;
 }
 
 .eight-block-card__left__card__image {
@@ -701,7 +696,7 @@
 .eight-block-card__right {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 62px;
 }
 
 .nine-block-application {
